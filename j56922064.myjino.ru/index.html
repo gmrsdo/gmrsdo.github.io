@@ -1,0 +1,106 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><title>Лендинг</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="keywords" content=""><link href="C:\Users\Мария\Desktop\j56922064.myjino.ru/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="is-wrapper"><div class="is-section is-section-auto is-bg-light is-box"><div class="is-overlay"><div class="is-overlay-bg" style="display:none"></div><div class="is-overlay-color" style="display:none">
+</div>
+<div class="is-overlay-content">
+
+</div>
+</div>
+<div class="is-boxes"><div class="is-box-centered">
+  <div class="is-container is-builder container is-content-980" id="contentarea-jfjJ0"><script type="text/javascript">
+      function showDoklad(box) {
+        var vis = box.checked ? "block" : "none";
+        document.getElementById("doklad").style.display = vis;
+      }
+    </script><script src="C:\Users\Мария\Desktop\j56922064.myjino.ru\javascript\save_info.js"></script>
+    <form action="https://landing1-j56922064.6e7oz.landing.myjino.ru/php/database.php" method="post" style="background-image: url(&quot;data:image/jpg;x-landing-overlay=0-0-0-0.2;x-landing-no-upload=1;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAA1JREFUGFdjYGBgkAIAAB8AG09Wpw4AAAAASUVORK5CYII=&quot;), url(&quot;C:\Users\Мария\Desktop\j56922064.myjino.ru\images\background.jpg;&quot;); background-position: 50% 50%; background-size: 100% 100%, cover;"><div class="form-group">
+      <div class="container" style="text-align: center;">
+      <center><h1><font style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;">Регистрация участников конференции</font></h1></center>
+      <b>Фамилия*: </b>
+      <input 
+      type="text" 
+      name="lastname" 
+      id="lastname" 
+      pattern="^[А-Яа-яЁё]+$" 
+      required=""><br>
+
+      <b>Имя*: </b>
+      <input 
+      type="text" 
+      name="name" 
+      id="name" 
+      pattern="^[А-Яа-яЁё]+$" 
+      required=""><br>
+
+      <b>Отчество*: </b>
+      <input 
+      type="text" 
+      name="patronymic" 
+      pattern="[А-Яа-яЁё]+$" 
+      id="patronymic" 
+      required=""><br>
+      
+      <label for="birthdate">
+        <b>Дата рождения: </b> </label>
+        <input 
+        type="date" 
+        name="date" 
+        id="date"><br>
+        
+        <label for="phone">
+          <b>Контактный телефон*: </b></label><input 
+          type="tel" 
+          placeholder="Контактный телефон" 
+          name="number" 
+          id="number" 
+          pattern="\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}" value="+7" 
+          required=""><br>
+          
+          <label for="email">
+            <b>Адрес электронной почты*: </b></label><input 
+            type="email" 
+            placeholder="Email" 
+            name="email" 
+            id="email" 
+            required=""><br>
+            
+            <label for="section">
+              <b>Секция конференции*: </b></label><select 
+              name="section" 
+              id="section" 
+              required=""><option 
+              value="Математика">Математика</option><option value="Физика">Физика</option><option value="Информатика">Информатика</option></select><br>
+              
+              <label for="doklad">
+                <b>Доклад</b></label><input 
+                type="checkbox" 
+                id="check" 
+                onchange="showDoklad(this)" 
+                name="check">
+                <center> <input type="text" id="doklad" name="doklad" style="display: none"></center>
+                
+                <center> <input class="registerbtn" type="submit" value="Отправить" onclick="info()">
+                <center> <button class="registerbtn" formaction="C:\Users\Мария\Desktop\j56922064.myjino.ru\html\list_members.php" formnovalidate=""> Таблица </button> </center>
+              
+              </center>
+                <br> * обязательно к заполнению <br></div><script type="text/javascript">
+          document.getElementById("check").checked = false;
+          <body>
+    
+            
+        </div>
+    </div>
+</body>
+ </script><hr>
+ </div>
+</form>
+</div>
+</div>
+</div>
+</div>
